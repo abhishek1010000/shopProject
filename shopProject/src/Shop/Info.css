@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    text-align: center;
+    overflow: hidden;
+    /* box-shadow: 5px 5px 5px rgb(203, 199, 199); */
+    background-color: rgb(205, 200, 191);
+    padding: 10px;
+    border-radius: 10px;
+}
+img{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+img:hover{
+    opacity: 1;
+}
